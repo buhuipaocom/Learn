@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <stroke
+        android:width="1dp"
+        android:color="#eee" />
+
+    <solid android:color="#f7f7f7" />
+
+</shape><!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/Vnique/src/main/res/drawable/tab_bg.xml --><!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/cugbNet/build/intermediates/exploded-aar/Learn/Vnique/unspecified/res/drawable/tab_bg.xml -->

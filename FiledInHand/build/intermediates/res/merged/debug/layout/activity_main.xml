@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wydewy="http://schemas.android.com/apk/res/cn.wydewy.filedinhand"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <include
+            android:id="@+id/page1"
+            layout="@layout/page1" />
+
+        <include
+            android:id="@+id/page2"
+            layout="@layout/page2" />
+
+        <include
+            android:id="@+id/page3"
+            layout="@layout/page3" />
+
+        <include
+            android:id="@+id/page4"
+            layout="@layout/page4" />
+    </LinearLayout>
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <!-- ChangeColorIconWithText的属性在attr.xml中设置 -->
+
+        <cn.wydewy.vnique.view.ChangeColorIconWithText
+            android:id="@+id/id_indicator_one"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            wydewy:icon="@drawable/bottom_tab1"
+            wydewy:text="@string/filed"
+            wydewy:text_size="12sp"
+            wydewy:color="#ff00A7FF" />
+
+        <cn.wydewy.vnique.view.ChangeColorIconWithText
+            android:id="@+id/id_indicator_two"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            wydewy:icon="@drawable/bottom_tab2"
+            wydewy:text="@string/navi"
+            wydewy:text_size="12sp"
+            wydewy:color="#ff00A7FF" />
+
+        <cn.wydewy.vnique.view.ChangeColorIconWithText
+            android:id="@+id/id_indicator_three"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            wydewy:icon="@drawable/bottom_tab3"
+            wydewy:text="@string/lib"
+            wydewy:text_size="12sp"
+            wydewy:color="#ff00A7FF" />
+
+        <cn.wydewy.vnique.view.ChangeColorIconWithText
+            android:id="@+id/id_indicator_four"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            wydewy:icon="@drawable/bottom_tab4"
+            wydewy:text="@string/user"
+            wydewy:text_size="12sp"
+            wydewy:color="#ff00A7FF" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/FiledInHand/src/main/res/layout/activity_main.xml -->

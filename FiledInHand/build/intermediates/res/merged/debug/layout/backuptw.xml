@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/beginlatitude"
+            android:hint="@string/latitude"
+            android:textColorHint="#AAAAAA"
+            android:background="@drawable/bg_edittext"
+            android:padding="5sp"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:maxWidth="120dp"
+            android:minWidth="120dp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:layout_margin="2dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/beginlongitude"
+            android:hint="@string/longitude"
+            android:textColorHint="#AAAAAA"
+            android:background="@drawable/bg_edittext"
+            android:padding="5sp"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:maxWidth="120dp"
+            android:minWidth="120dp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:layout_margin="2dp"
+            android:layout_gravity="center"/>
+
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/true_north"
+            android:textOff="@string/mag_north"
+            android:id="@+id/mdswitch"
+            android:layout_gravity="center"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calibration"
+            android:id="@+id/calibration"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
+<!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/FiledInHand/src/main/res/layout/backuptw.xml -->

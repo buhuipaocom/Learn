@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="vertical">
+    <!--第二页标题-->
+    <include
+        android:id="@+id/page3_title"
+        layout="@layout/page3_title" />
+
+    <cn.wydewy.vnique.view.VniqueViewPager
+        android:id="@+id/id_page3_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></cn.wydewy.vnique.view.VniqueViewPager>
+
+</LinearLayout><!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/YueJuBa/src/main/res/layout/page3.xml -->

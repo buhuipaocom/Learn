@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wydewy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:background="@drawable/tab_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/page1_top_all"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/page1_top_1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal">
+                <!-- 第一页顶部第一个tab -->
+
+                <cn.wydewy.vnique.view.ChangeColorIconWithText
+                    android:id="@+id/id_page1_one"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    wydewy:color="@color/main_color"
+                    wydewy:text="合唱"
+                    wydewy:text_color="@color/main_text_color"
+                    wydewy:text_size="22sp" />
+
+                <!-- 第一页顶部第二个tab -->
+
+                <cn.wydewy.vnique.view.ChangeColorIconWithText
+                    android:id="@+id/id_page1_two"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    wydewy:color="@color/main_color"
+                    wydewy:text="管乐"
+                    wydewy:text_color="@color/main_text_color"
+                    wydewy:text_size="22sp" />
+
+                <!-- 第一页顶部第三个tab -->
+
+                <cn.wydewy.vnique.view.ChangeColorIconWithText
+                    android:id="@+id/id_page1_three"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    wydewy:color="@color/main_color"
+                    wydewy:text="演艺"
+                    wydewy:text_color="@color/main_text_color"
+                    wydewy:text_size="22sp" />
+
+                <!-- 第一页顶部第四个tab -->
+
+                <cn.wydewy.vnique.view.ChangeColorIconWithText
+                    android:id="@+id/id_page1_four"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    wydewy:color="@color/main_color"
+                    wydewy:text="表演"
+                    wydewy:text_color="@color/main_text_color"
+                    wydewy:text_size="22sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/tab_bg"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/more_right"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:src="@drawable/more_right" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/page1_top_2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/tab_bg"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/more_left"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:src="@drawable/more_left" />
+                </LinearLayout>
+
+                <!-- 第一页顶部第一个tab -->
+
+                <cn.wydewy.vnique.view.ChangeColorIconWithText
+                    android:id="@+id/id_page1_one2"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    wydewy:color="@color/main_color"
+                    wydewy:text="科技"
+                    wydewy:text_color="@color/main_text_color"
+                    wydewy:text_size="22sp" />
+
+                <!-- 第一页顶部第二个tab -->
+
+                <cn.wydewy.vnique.view.ChangeColorIconWithText
+                    android:id="@+id/id_page1_two2"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    wydewy:color="@color/main_color"
+                    wydewy:text="吉他"
+                    wydewy:text_color="@color/main_text_color"
+                    wydewy:text_size="22sp" />
+
+                <!-- 第一页顶部第三个tab -->
+
+                <cn.wydewy.vnique.view.ChangeColorIconWithText
+                    android:id="@+id/id_page1_three2"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    wydewy:color="@color/main_color"
+                    wydewy:text="熊孩子"
+                    wydewy:text_color="@color/main_text_color"
+                    wydewy:text_size="22sp" />
+
+                <!-- 第一页顶部第四个tab -->
+
+                <cn.wydewy.vnique.view.ChangeColorIconWithText
+                    android:id="@+id/id_page1_four2"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    wydewy:color="@color/main_color"
+                    wydewy:text="舞蹈"
+                    wydewy:text_color="@color/main_text_color"
+                    wydewy:text_size="22sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mPage1TabLineIv"
+            android:layout_width="55dp"
+            android:layout_height="5dp"
+            android:background="@color/main_color"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+
+</LinearLayout>

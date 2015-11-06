@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wydewy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <cn.wydewy.vnique.view.ChangeColorIconWithText
+            android:id="@+id/id_page2_one"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="clip_horizontal"
+            android:background="@color/main_color"
+            android:padding="5dp"
+            wydewy:color="@color/white"
+            wydewy:text="@string/teacher"
+            wydewy:text_color="@color/balck"
+            wydewy:text_size="28sp" />
+
+        <cn.wydewy.vnique.view.ChangeColorIconWithText
+            android:id="@+id/id_page2_two"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="clip_horizontal"
+            android:background="@color/white"
+            android:padding="5dp"
+            wydewy:color="@color/white"
+            wydewy:text="@string/mechanism"
+            wydewy:text_color="@color/balck"
+            wydewy:text_size="28sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mPage2TabLineIv"
+        android:layout_width="80dp"
+        android:layout_height="5dp"
+        android:background="@color/white"
+        android:orientation="vertical" />
+
+</LinearLayout>
+<!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/YueJuBa/src/main/res/layout/page2_top.xml -->

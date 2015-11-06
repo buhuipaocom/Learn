@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="编辑"
+            android:background="@drawable/left"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:id="@+id/textview_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="删除"
+            android:background="@drawable/right"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/Vnique/src/main/res/layout/layout_dialog.xml --><!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/Vnique/build/intermediates/bundles/debug/res/layout/layout_dialog.xml -->

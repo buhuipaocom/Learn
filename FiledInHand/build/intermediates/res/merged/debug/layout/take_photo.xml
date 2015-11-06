@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cameraV"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible" >
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/cameraV_compassLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:visibility="visible" >
+
+        <!-- 罗盘外周 -->
+
+        <cn.wydewy.vnique.view.CompassView
+            android:id="@+id/cameraV_compassV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:padding="2dp"
+            android:src="@drawable/whater_compass" />
+        <!-- 罗盘中间部分 -->
+
+        <cn.wydewy.vnique.view.LevelplainView
+            android:id="@+id/cameraV_levelplainV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/cameraV_compassV"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="@string/compassdirection"
+            android:src="@drawable/whater_level" />
+        <!-- 记录罗盘的角度 -->
+
+        <TextView
+            android:id="@+id/cameraV_compassdirectionTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cameraV_levelplainV"
+            android:layout_centerHorizontal="true"
+            android:text="@string/compassdirection"
+            android:textColor="#FFFFFFFF" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/takePicSelecte"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FF000000" >
+
+        <LinearLayout
+            android:id="@+id/hdrSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/lightImg"
+                android:layout_width="20dp"
+                android:layout_height="26dp"
+                android:paddingLeft="5dp"
+                android:src="@drawable/light_img" />
+
+            <TextView
+                android:id="@+id/lightTV"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="auto"
+                android:textColor="#FFFFFFFF" />
+
+            <TextView
+                android:id="@+id/kuaimenTV"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="HDR"
+                android:textColor="#FFFFFFFF" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/takePicBtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/take_photo_btn" />
+
+        <TextView
+            android:id="@+id/whaterTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/takePicBtn"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="隐藏水印"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/cancelTakePic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="返回"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/FiledInHand/src/main/res/layout/take_photo.xml -->

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="du">°</string>
+    <string name="fen">′</string>
+    <string name="miao">″</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/cugbNet/build/intermediates/exploded-aar/Learn/Vnique/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="reference|color" name="background"/>
+    <attr format="reference|color" name="color"/>
+    <attr format="reference" name="icon"/>
+    <attr format="string" name="text"/>
+    <attr format="reference|color" name="text_color"/>
+    <attr format="dimension" name="text_size"/>
+    <color name="balck">#000000</color>
+    <color name="list_bg_color">#DDDDDD</color>
+    <color name="list_focus_color">#FFE9FF</color>
+    <color name="list_normal_color">#FFFFFF</color>
+    <color name="low_white">#ffEEEEEE</color>
+    <color name="page1_topbar_color">#ff800080</color>
+    <color name="page2_topbar_color">#ff000080</color>
+    <color name="page3_topbar_color">#ff000080</color>
+    <color name="page4_topbar_color">#ff000080</color>
+    <color name="page_topbar_color">#ff800080</color>
+    <color name="purple">#ff800080</color>
+    <color name="red">#FF0000</color>
+    <color name="topbar_text_color">#ff858585</color>
+    <color name="white">#ffFFFFFF</color>
+    <declare-styleable name="ChangeColorIconWithText"><attr name="icon"/><attr name="color"/><attr name="text"/><attr name="text_size"/><attr name="text_color"/></declare-styleable>
+    <declare-styleable name="FloatDialog"><attr name="background"/><attr format="string" name="left_text"/><attr format="color" name="left_text_color"/><attr format="reference|color" name="left_background"/><attr format="string" name="right_text"/><attr format="color" name="right_text_color"/><attr format="reference|color" name="right_background"/></declare-styleable>
+    <declare-styleable name="WydewyListView"><attr format="string" name="pull_refresh_text"/><attr format="reference|color" name="pull_to_refresh_drawable"/><attr format="string" name="loading_text"/><attr format="reference" name="refrash_progressbar_style"/><attr format="reference" name="load_progressbar_style"/></declare-styleable>
+    <!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/cugbNet/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/cugbNet/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">wydewy</string>
+    <string name="app_name">宽带认证</string>
+    <!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/cugbNet/build/intermediates/exploded-aar/Learn/Vnique/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/cugbNet/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/cugbNet/build/intermediates/exploded-aar/Learn/Vnique/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="anim_popup_dir">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+</resources>

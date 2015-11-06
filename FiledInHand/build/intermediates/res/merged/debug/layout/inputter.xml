@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- 相关设置项，建议修改放置到设置页中 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="8dp" >
+
+        <Switch
+            android:id="@+id/mdSW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@color/purple"
+            android:drawableRight="@color/red"
+            android:textOff="@string/mag_north"
+            android:textOn="@string/north" />
+
+        <CheckBox
+            android:id="@+id/calibrationCK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/calibration" />
+    </LinearLayout>
+
+    <!-- 记录数据 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp" >
+
+        <EditText
+            android:id="@+id/pointnameET"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_edittext"
+            android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:hint="@string/name"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textColorHint="#AAAAAA"
+            android:textSize="16sp"
+            android:windowSoftInputMode="stateHidden"
+            android:focusable="true"
+            android:focusableInTouchMode="true"  />
+
+        <EditText
+            android:id="@+id/notesET"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_edittext"
+            android:hint="@string/note"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#AAAAAA"
+            android:textSize="16sp"
+            android:windowSoftInputMode="stateHidden"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp" >
+
+        <!-- 点击保存 -->
+
+        <TextView
+            android:id="@+id/saveDataTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@color/text_btn_bg"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/save_data"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/photoTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@color/text_btn_bg"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/take_photo"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/FiledInHand/src/main/res/layout/inputter.xml -->

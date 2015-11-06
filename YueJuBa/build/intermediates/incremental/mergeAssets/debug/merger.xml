@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="unspecified"><source path="G:\Android\vnique_Android\Vnique\Learn\YueJuBa\build\intermediates\exploded-aar\Learn\Vnique\unspecified\assets"/></dataSet><dataSet config="main"><source path="G:\Android\vnique_Android\Vnique\Learn\YueJuBa\src\main\assets"><file name="litepal.xml" path="G:\Android\vnique_Android\Vnique\Learn\YueJuBa\src\main\assets\litepal.xml"/></source></dataSet><dataSet config="debug"><source path="G:\Android\vnique_Android\Vnique\Learn\YueJuBa\src\debug\assets"/></dataSet></merger>

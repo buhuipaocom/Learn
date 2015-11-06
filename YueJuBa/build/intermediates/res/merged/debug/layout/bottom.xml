@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wydewy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/tab_bg"
+    android:orientation="horizontal">
+
+    <!-- ChangeColorIconWithText的属性在attr.xml中设置 -->
+
+    <cn.wydewy.vnique.view.ChangeColorIconWithText
+        android:id="@+id/id_indicator_one"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="5dp"
+        wydewy:color="@color/main_color"
+        wydewy:icon="@drawable/community"
+        wydewy:text="@string/comunity"
+        wydewy:text_size="12sp" />
+
+    <cn.wydewy.vnique.view.ChangeColorIconWithText
+        android:id="@+id/id_indicator_two"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="5dp"
+        wydewy:color="@color/main_color"
+        wydewy:icon="@drawable/mechanism"
+        wydewy:text="@string/mechanism"
+        wydewy:text_size="12sp" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:src="@drawable/musical_note"></ImageView>
+
+    <cn.wydewy.vnique.view.ChangeColorIconWithText
+        android:id="@+id/id_indicator_three"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="5dp"
+        wydewy:color="@color/main_color"
+        wydewy:icon="@drawable/party"
+        wydewy:text="@string/party"
+        wydewy:text_size="12sp" />
+
+    <cn.wydewy.vnique.view.ChangeColorIconWithText
+        android:id="@+id/id_indicator_four"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="5dp"
+        wydewy:color="@color/main_color"
+        wydewy:icon="@drawable/person"
+        wydewy:text="个人中心"
+        wydewy:text_size="12sp" />
+
+</LinearLayout><!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/YueJuBa/src/main/res/layout/bottom.xml -->

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dates"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <!-- 经度 -->
+
+        <TextView
+            android:id="@+id/lgTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="@string/lg"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <!-- 纬度 -->
+
+        <TextView
+            android:id="@+id/laTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:padding="12dp"
+            android:text="@string/la"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <!-- 倾向 -->
+
+        <TextView
+            android:id="@+id/sdisTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="@string/scis"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <!-- 倾角 -->
+
+        <TextView
+            android:id="@+id/daisTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="@string/dais"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <!-- 数目 -->
+
+        <TextView
+            android:id="@+id/numTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="@string/numis"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+        <!-- 数目清零 -->
+
+        <TextView
+            android:id="@+id/clearnumTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="@string/clearnum"
+            android:textColor="@color/purple" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/FiledInHand/src/main/res/layout/dates.xml -->

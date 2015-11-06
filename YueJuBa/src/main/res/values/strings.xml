@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">乐聚吧</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="comunity">圈子</string>
+    <string name="mechanism">机构</string>
+    <string name="party">乐聚party</string>
+    <string name="teacher_mechanism">师资 机构</string>
+    <string name="teacher">教师</string>
+    <string name="recent_homework">近期作业</string>
+    <string name="message">消息</string>
+    <string name="collection">收藏</string>
+    <string name="conceded">关注</string>
+    <string name="friends">好友</string>
+    <string name="yueju_party">乐聚活动</string>
+
+</resources>

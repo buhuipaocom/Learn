@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="list_focus_color">#FFE9FF</color>
+    <color name="list_normal_color">#FFFFFF</color>
+    <color name="list_bg_color">#DDDDDD</color>
+    <color name="red">#FF0000</color>
+    <color name="balck">#000000</color>
+    <color name="purple">#ff800080</color>
+    <color name="white">#ffFFFFFF</color>
+    <color name="low_white">#ffEEEEEE</color>
+    <color name="topbar_text_color">#ff858585</color>
+    <color name="page_topbar_color">#ff800080</color>
+    <color name="page1_topbar_color">#ff800080</color>
+    <color name="page2_topbar_color">#ff000080</color>
+    <color name="page3_topbar_color">#ff000080</color>
+    <color name="page4_topbar_color">#ff000080</color>
+
+</resources>

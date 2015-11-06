@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/FiledInHand/src/main/res/values-w820dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/FiledInHand/src/main/res/values-w820dp/strings.xml -->
+    <eat-comment/>
+    <string name="du">°</string>
+    <string name="fen">′</string>
+    <string name="miao">″</string>
+</resources>

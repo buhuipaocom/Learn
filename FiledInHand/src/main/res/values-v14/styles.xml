@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+
+        <!-- 定制overflow -->
+        <item name="android:actionOverflowButtonStyle">@style/weixinActionOverflowButtonStyle</item>
+    </style>
+
+    <style name="weixinActionOverflowButtonStyle">
+        <item name="android:src">@drawable/actionbar_add_icon</item>
+    </style>
+
+</resources>

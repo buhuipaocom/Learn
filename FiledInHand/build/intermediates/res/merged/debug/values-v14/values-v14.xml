@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/FiledInHand/src/main/res/values-v14/strings.xml -->
+    <eat-comment/>
+    <string name="du">°</string>
+    <string name="fen">′</string>
+    <string name="miao">″</string>
+    <!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/FiledInHand/src/main/res/values-v14/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+
+        <!-- 定制overflow -->
+        <item name="android:actionOverflowButtonStyle">@style/weixinActionOverflowButtonStyle</item>
+    </style>
+    <style name="weixinActionOverflowButtonStyle">
+        <item name="android:src">@drawable/actionbar_add_icon</item>
+    </style>
+</resources>

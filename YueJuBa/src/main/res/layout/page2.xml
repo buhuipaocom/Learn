@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="vertical">
+    <!--第二页标题-->
+    <include
+        android:id="@+id/page2_title"
+        layout="@layout/page2_title" />
+    <!--第二页横幅 -->
+    <include layout="@layout/divider" />
+
+    <include
+        android:id="@+id/page2_header"
+        layout="@layout/page2_header" />
+
+    <include layout="@layout/divider" />
+    <!-- 第二页顶部tab -->
+    <include
+        android:id="@+id/page2_top"
+        layout="@layout/page2_top" />
+    <!-- 一个二页面的ViewPager -->
+
+    <cn.wydewy.vnique.view.VniqueViewPager
+        android:id="@+id/id_page2_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></cn.wydewy.vnique.view.VniqueViewPager>
+
+</LinearLayout>

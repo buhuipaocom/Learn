@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:src="@drawable/sign_face_off" />
+
+    <!-- 注册数据 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp" >
+
+        <EditText
+            android:id="@+id/checkCodeET"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="请输入验证码"
+            android:maxLines="1"
+            android:padding="2dp"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textColorHint="#AAAAAA"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/usernameET"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="请输入邮箱"
+            android:maxLines="1"
+            android:padding="2dp"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textColorHint="#AAAAAA"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/passwordET"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/usernameET"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="密码"
+            android:inputType="textPassword"
+            android:padding="2dp"
+            android:textColor="#000000"
+            android:textColorHint="#AAAAAA"
+            android:textSize="14sp"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp" >
+
+        <TextView
+            android:id="@+id/signUpTV"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@color/text_btn_bg"
+            android:gravity="center"
+            android:text="注册"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/FiledInHand/src/main/res/layout/activity_sign_up.xml -->

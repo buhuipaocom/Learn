@@ -1,0 +1,10 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:state_window_focused="false"
+        android:drawable="@drawable/measurebutton"
+            android:width="30dp"/>
+        <item android:state_focused="true"
+            android:drawable="@drawable/measurebuttonpressed"/>
+        <item android:state_pressed="true"
+        android:drawable="@drawable/measurebuttonpressed"/>
+</selector>
+

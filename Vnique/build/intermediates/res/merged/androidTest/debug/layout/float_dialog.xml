@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wydewy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <cn.wydewy.vnique.view.FloatDialog
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        wydewy:background="#FF000000"
+        wydewy:left_background="@drawable/left"
+        wydewy:left_text="编辑"
+        wydewy:left_text_color="#FFFFFFFF"
+        wydewy:right_background="@drawable/right"
+        wydewy:right_text="删除"
+        wydewy:right_text_color="#FFFFFFFF" >
+    </cn.wydewy.vnique.view.FloatDialog>
+
+</LinearLayout><!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/Vnique/src/main/res/layout/float_dialog.xml --><!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/Vnique/build/intermediates/bundles/debug/res/layout/float_dialog.xml -->

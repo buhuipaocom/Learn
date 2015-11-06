@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FiledInHand/FiledInHand.iml" filepath="$PROJECT_DIR$/FiledInHand/FiledInHand.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImageLoader/ImageLoader.iml" filepath="$PROJECT_DIR$/ImageLoader/ImageLoader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learn.iml" filepath="$PROJECT_DIR$/Learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vnique/Vnique.iml" filepath="$PROJECT_DIR$/Vnique/Vnique.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YueJuBa/YueJuBa.iml" filepath="$PROJECT_DIR$/YueJuBa/YueJuBa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cugbNet/cugbNet.iml" filepath="$PROJECT_DIR$/cugbNet/cugbNet.iml" />
+    </modules>
+  </component>
+</project>

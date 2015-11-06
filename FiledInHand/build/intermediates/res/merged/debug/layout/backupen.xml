@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:id="@+id/beginner"
+        android:visibility="invisible"
+        >
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:id="@+id/Welcome"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="60dp" />
+
+        <ImageView android:id="@+id/frameshow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5px"
+            android:src="@drawable/frameshow"
+            android:layout_gravity="top" />
+
+
+        <cn.wydewy.filedinhand.view.MyImageButton
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:text="@string/alert"
+            android:id="@+id/tellerButton"
+            android:layout_gravity="bottom|center"
+            android:textColor="@drawable/button_mod"
+            android:background="@drawable/button_back"
+            android:layout_marginBottom="120dp" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginner"
+            android:id="@+id/BeginnerText"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center" />
+
+
+    </FrameLayout>
+
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/viewer"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:visibility="visible"
+        >
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:weightSum="1"
+            android:gravity="top"
+            android:id="@+id/dataview">
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_vertical"
+                android:columnCount="5"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:rowCount="1"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/lg"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:maxWidth="120dp"
+                    android:minWidth="120dp"
+                    android:text="@string/none"
+                    android:textColor="#000000"
+                    android:maxLines="1"
+                    android:textSize="14sp"
+                    android:layout_marginRight="10dp" />
+
+                <TextView
+                    android:id="@+id/sdis"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:text="@string/scis"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/sd"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:maxWidth="120dp"
+                    android:minWidth="120dp"
+                    android:text="@string/none"
+                    android:textColor="#000000"
+                    android:maxLines="1"
+                    android:textSize="14sp" />
+
+
+
+
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_vertical"
+                android:columnCount="5"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:rowCount="1"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/la"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:maxWidth="120dp"
+                    android:minWidth="120dp"
+                    android:text="@string/none"
+                    android:textColor="#000000"
+                    android:maxLines="1"
+                    android:textSize="14sp"
+                    android:layout_marginRight="10dp" />
+
+                <TextView
+                    android:id="@+id/dais"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:text="@string/dais"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/dipangle"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:maxWidth="120dp"
+                    android:minWidth="120dp"
+                    android:text="@string/none"
+                    android:textColor="#000000"
+                    android:maxLines="1"
+                    android:textSize="14sp" />
+
+
+
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_vertical"
+                android:columnCount="5"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:rowCount="1"
+                android:layout_margin="10dp">
+
+
+                <TextView
+                    android:id="@+id/al"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="120dp"
+                    android:minWidth="120dp"
+                    android:text="@string/none"
+                    android:textColor="#000000"
+                    android:maxLines="1"
+                    android:textSize="14sp"
+                    android:gravity="left"
+                    android:layout_marginRight="10dp" />
+
+
+
+
+
+                <TextView
+                    android:id="@+id/numis"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:text="@string/numis"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/number"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:maxWidth="120dp"
+                    android:minWidth="120dp"
+                    android:text="@string/number"
+                    android:textColor="#000000"
+                    android:maxLines="1"
+                    android:textSize="14sp" />
+
+            </GridLayout>
+
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_vertical"
+                android:id="@+id/centerview">
+
+
+
+                <cn.wydewy.vnique.view.CompassView
+                    android:id="@+id/compass_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/compass"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp" />
+
+
+                <cn.wydewy.vnique.view.LevelplainView
+                    android:id="@+id/levelplain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/compassdirection"
+                    android:src="@drawable/level" />
+
+                <TextView
+                    android:id="@+id/compassdirection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/compassdirection"
+                    android:textColor="#000000"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/levelplain"
+                    android:layout_marginTop="54dp" />
+
+                <ImageButton
+                    android:id="@+id/imagebutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="#00000000"
+                    android:src="@drawable/imagebutton" />
+
+
+
+
+            </RelativeLayout>
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/inputter"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.28"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tip"
+                    android:id="@+id/tip"
+                    android:layout_gravity="center_horizontal" />
+
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_vertical"
+                    android:columnCount="2"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:rowCount="1"
+                    android:layout_margin="0dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp">
+
+
+
+                    <EditText
+                        android:id="@+id/pointname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        android:gravity="center"
+                        android:hint="@string/name"
+                        android:textColorHint="#AAAAAA"
+                        android:background="@drawable/bg_edittext"
+                        android:padding="5sp"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:maxWidth="120dp"
+                        android:minWidth="120dp"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:layout_margin="2dp" />
+
+
+
+                    <EditText
+                        android:id="@+id/notes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:hint="@string/note"
+                        android:textColorHint="#AAAAAA"
+                        android:background="@drawable/bg_edittext"
+                        android:padding="5sp"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:maxWidth="120dp"
+                        android:minWidth="120dp"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:layout_margin="2dp" />
+
+
+                </GridLayout>
+
+
+
+
+            </LinearLayout>
+
+            <cn.wydewy.filedinhand.view.MyImageButton
+                style="?android:attr/buttonStyleSmall"
+                android:id="@+id/clearnum"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="@string/clearnum" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/setter"
+        android:visibility="invisible"
+        android:layout_gravity="center">
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calibration"
+            android:id="@+id/calibration"
+            android:layout_gravity="center" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/true_north"
+            android:textOff="@string/mag_north"
+            android:id="@+id/mdswitch"
+            android:layout_gravity="center_horizontal" />
+    </FrameLayout>
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal|bottom"
+        android:columnOrderPreserved="false"
+        android:id="@+id/controler">
+
+        <cn.wydewy.filedinhand.view.MyImageButton
+            style="?android:attr/buttonStyleSmall"
+            android:id="@+id/save_data"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:background="@drawable/measurebutton"
+            android:text="@string/save_data"
+            android:layout_margin="10dp" />
+
+        <cn.wydewy.filedinhand.view.MyImageButton
+            style="?android:attr/buttonStyleSmall"
+            android:id="@+id/take_photo"
+            android:text="@string/takePhoto"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:background="@drawable/photobutton"
+            android:layout_margin="10dp" />
+
+        <cn.wydewy.filedinhand.view.MyImageButton
+            style="?android:attr/buttonStyleSmall"
+            android:id="@+id/action_settings"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text="@string/action_settings"
+            android:background="@drawable/distancebutton"
+            android:layout_margin="10dp" />
+
+        <cn.wydewy.filedinhand.view.MyImageButton
+            style="?android:attr/buttonStyleSmall"
+            android:id="@+id/viewWebsite"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text="@string/viewwebsite"
+            android:background="@drawable/librarybutton"
+            android:layout_margin="10dp" />
+
+        <cn.wydewy.filedinhand.view.MyImageButton
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text="@string/user"
+            android:id="@+id/user"
+            android:background="@drawable/userbutton"
+            android:layout_margin="10dp" />
+
+
+
+
+    </GridLayout>
+
+
+</FrameLayout>
+<!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/FiledInHand/src/main/res/layout/backupen.xml -->

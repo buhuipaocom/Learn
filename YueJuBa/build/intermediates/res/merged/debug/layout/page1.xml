@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00000000">
+    <!--第一页标题-->
+    <include
+        android:id="@+id/page1_title"
+        layout="@layout/page1_title" />
+    <!-- 第一页顶部tab -->
+    <include
+        android:id="@+id/page1_top"
+        layout="@layout/page1_top" />
+    <!-- 一个四页面的ViewPager -->
+
+    <cn.wydewy.vnique.view.VniqueViewPager
+        android:id="@+id/id_page1_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></cn.wydewy.vnique.view.VniqueViewPager>
+
+</LinearLayout><!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/YueJuBa/src/main/res/layout/page1.xml -->

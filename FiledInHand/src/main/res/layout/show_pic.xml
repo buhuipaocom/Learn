@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <cn.wydewy.vnique.view.ZoomImageView
+        android:id="@+id/image_viewer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/image_set"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_launcher"
+        />
+    <TextView
+        android:id="@+id/pic_name"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="dscbsjahbc"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:background="@color/grey"
+        />
+
+</RelativeLayout>

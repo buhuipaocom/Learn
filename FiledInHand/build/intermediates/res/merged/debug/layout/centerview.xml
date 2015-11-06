@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/compassLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        >
+
+        <!-- 罗盘外周 -->
+
+        <cn.wydewy.vnique.view.CompassView
+            android:id="@+id/compassV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/compass"
+            />
+
+        <!-- 罗盘外周 -->
+
+        <cn.wydewy.vnique.view.CompassView
+            android:id="@+id/compass1V"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/compass1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            />
+
+        <!-- 罗盘中间部分 -->
+
+        <cn.wydewy.vnique.view.LevelplainView
+            android:id="@+id/levelplainV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/compassdirection"
+            android:src="@drawable/level"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            />
+
+        <!-- 记录罗盘的角度 -->
+
+        <TextView
+            android:id="@+id/compassdirectionTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/levelplainV"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="54dp"
+            android:text="@string/compassdirection"
+            android:textColor="#FF000000" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/FiledInHand/src/main/res/layout/centerview.xml -->

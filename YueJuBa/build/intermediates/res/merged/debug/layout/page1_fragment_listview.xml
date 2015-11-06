@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lvP"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_bg_color"
+    android:orientation="vertical">
+
+    <cn.wydewy.yuejuba.view.CommunityListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/divider_color"
+        android:dividerHeight="10px"
+        >
+
+    </cn.wydewy.yuejuba.view.CommunityListView>
+
+</LinearLayout><!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/YueJuBa/src/main/res/layout/page1_fragment_listview.xml -->

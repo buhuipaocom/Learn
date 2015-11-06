@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="icon" format="reference"></attr>
+    <attr name="color" format="reference|color"></attr>
+    <attr name="text" format="string"></attr>
+    <attr name="text_size" format="dimension"></attr>
+    <attr name="text_color" format="reference|color"></attr>
+    <attr name="background" format="reference|color"></attr>
+
+    <declare-styleable name="ChangeColorIconWithText">
+        <attr name="icon"></attr>
+        <attr name="color"></attr>
+        <attr name="text"></attr>
+        <attr name="text_size"></attr>
+        <attr name="text_color"></attr>
+    </declare-styleable>
+    <declare-styleable name="WydewyListView">
+        <attr name="pull_refresh_text" format="string"></attr>
+        <attr name="pull_to_refresh_drawable" format="reference|color"></attr>
+        <attr name="loading_text" format="string"></attr>
+        <attr name="refrash_progressbar_style" format="reference"></attr>
+        <attr name="load_progressbar_style" format="reference"></attr>
+    </declare-styleable>
+    <declare-styleable name="FloatDialog">
+        <attr name="background"></attr>
+        <attr name="left_text" format="string"></attr>
+        <attr name="left_text_color" format="color"></attr>
+        <attr name="left_background" format="reference|color"></attr>
+        <attr name="right_text" format="string"></attr>
+        <attr name="right_text_color" format="color"></attr>
+        <attr name="right_background" format="reference|color"></attr>
+    </declare-styleable>
+
+</resources>

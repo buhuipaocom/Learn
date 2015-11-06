@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cn.wydewy.filedinhand.MainActivity" >
+
+    <item
+        android:id="@+id/action_introduction"
+        android:icon="@drawable/menu1"
+        android:title="@string/introduction"/>
+    <item
+        android:id="@+id/action_library"
+        android:icon="@drawable/menu2"
+        android:title="@string/pic_lib"/>
+    <item
+        android:id="@+id/action_about_us"
+        android:icon="@drawable/menu5"
+        android:title="@string/about"/>
+    <item
+        android:id="@+id/action_feedback"
+        android:icon="@drawable/menu6"
+        android:title="@string/feedback"/>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/menu7"
+        android:title="@string/settings"/>
+    <item
+        android:id="@+id/action_changeMode"
+        android:icon="@drawable/menu7"
+        android:title="@string/mode"/>
+    
+</menu><!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/FiledInHand/src/main/res/menu/main.xml -->

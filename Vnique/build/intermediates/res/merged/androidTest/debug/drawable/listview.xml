@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/list_focus_color" android:state_focused="true" android:state_pressed="false"/>
+    <item android:drawable="@color/list_focus_color" android:state_focused="true" android:state_pressed="true"/>
+    <item android:drawable="@color/list_focus_color" android:state_focused="false" android:state_pressed="true"/>
+    <item android:drawable="@color/list_normal_color"/>
+
+</selector><!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/Vnique/src/main/res/drawable/listview.xml --><!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/Vnique/build/intermediates/bundles/debug/res/drawable/listview.xml -->

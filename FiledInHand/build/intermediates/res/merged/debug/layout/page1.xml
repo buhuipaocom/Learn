@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wydewy="http://schemas.android.com/apk/res/cn.wydewy.filedinhand"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/id_page1_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/tab_bg"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/id_page1_title_bar_Img"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="3dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/id_page1_title_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="乐聚吧"
+            android:textColor="#ff0000aa" />
+    </LinearLayout>
+    <!-- 第一页顶部tab -->
+
+    <LinearLayout
+        android:id="@+id/id_page1_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/tab_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal" >
+
+            <!-- 第一页顶部第一个tab -->
+
+            <cn.wydewy.vnique.view.ChangeColorIconWithText
+                android:id="@+id/id_page1_one"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="5dp"
+                wydewy:text="老师"
+                wydewy:text_color="@color/topbar_text_color"
+                wydewy:text_size="22sp"
+                wydewy:color="@color/page1_topbar_color" />
+
+            <!-- 第一页顶部第二个tab -->
+
+            <cn.wydewy.vnique.view.ChangeColorIconWithText
+                android:id="@+id/id_page1_two"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="5dp"
+                wydewy:text="教室"
+                wydewy:text_color="@color/topbar_text_color"
+                wydewy:text_size="22sp"
+                wydewy:color="@color/page1_topbar_color" />
+
+            <!-- 第一页顶部第三个tab -->
+
+            <cn.wydewy.vnique.view.ChangeColorIconWithText
+                android:id="@+id/id_page1_three"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="5dp"
+                wydewy:text="课表"
+                wydewy:text_color="@color/topbar_text_color"
+                wydewy:text_size="22sp"
+                wydewy:color="@color/page1_topbar_color" />
+
+            <!-- 第一页顶部第四个tab -->
+
+            <cn.wydewy.vnique.view.ChangeColorIconWithText
+                android:id="@+id/id_page1_four"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="5dp"
+                wydewy:text="人气"
+                wydewy:text_color="@color/topbar_text_color"
+                wydewy:text_size="22sp"
+                wydewy:color="@color/page1_topbar_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mPage1TabLineIv"
+            android:layout_width="80dp"
+            android:layout_height="5dp"
+            android:background="@color/page1_topbar_color"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+    <!-- 一个四页面的ViewPager -->
+
+    <cn.wydewy.vnique.view.VniqueViewPager
+        android:id="@+id/id_page1_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </cn.wydewy.vnique.view.VniqueViewPager>
+
+</LinearLayout><!-- From: file:/G:/Android/vnique_Android/Vnique/Learn/FiledInHand/src/main/res/layout/page1.xml -->
